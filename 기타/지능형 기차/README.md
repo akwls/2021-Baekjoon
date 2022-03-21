@@ -4,12 +4,37 @@
 
 ![this is image](https://upload.acmicpc.net/32c10113-d852-4d34-bf7d-b6190c49c783/-/preview/)
 
-| 내린 사람 수 | 탄 사람 수 |
-|-----|-----|----|
-| 1번역(출발역) | 0 | 32 |
-| 2번역 | 3 | 13 |
-| 3번역 | 28 | 25 |
-| 4번역(종착역) | 39 | 0 |
+<table class="table table-bordered" style="width:30%">
+	<thead>
+		<tr>
+			<th>&nbsp;</th>
+			<th>내린 사람 수</th>
+			<th>탄 사람 수</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>1번역(출발역)</th>
+			<td>0</td>
+			<td>32</td>
+		</tr>
+		<tr>
+			<th>2번역</th>
+			<td>3</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<th>3번역</th>
+			<td>28</td>
+			<td>25</td>
+		</tr>
+		<tr>
+			<th>4번역(종착역)</th>
+			<td>39</td>
+			<td>0</td>
+		</tr>
+	</tbody>
+</table>
 
 예를 들어, 위와 같은 경우를 살펴보자. 이 경우, 기차 안에 사람이 가장 많은 때는 2번역에서 3명의 사람이 기차에서 내리고, 13명의 사람이 기차에 탔을 때로, 총 42명의 사람이 기차 안에 있다.
 
