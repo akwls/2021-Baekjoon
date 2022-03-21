@@ -1,14 +1,58 @@
 # 분수찾기
 ## 문제
 무한히 큰 배열에 다음과 같이 분수들이 적혀있다.
-
-|1/1|1/2|1/3|1/4|1/5|…|
-|2/1|2/2|2/3|2/4|…|…|
-|3/1|3/2|3/3|…|…|…|
-|4/1|4/2|…|…|…|…|
-|5/1|…|…|…|…|…|
-|…|…|…|…|…|…|
-
+<table style="width:30%; border: 1px solid gray">
+	<tbody>
+		<tr>
+			<td style="width:5%">1/1</td>
+			<td style="width:5%">1/2</td>
+			<td style="width:5%">1/3</td>
+			<td style="width:5%">1/4</td>
+			<td style="width:5%">1/5</td>
+			<td style="width:5%">&hellip;</td>
+		</tr>
+		<tr>
+			<td>2/1</td>
+			<td>2/2</td>
+			<td>2/3</td>
+			<td>2/4</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+		</tr>
+		<tr>
+			<td>3/1</td>
+			<td>3/2</td>
+			<td>3/3</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+		</tr>
+		<tr>
+			<td>4/1</td>
+			<td>4/2</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+		</tr>
+		<tr>
+			<td>5/1</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+		</tr>
+		<tr>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+			<td>&hellip;</td>
+		</tr>
+	</tbody>
+</table>
 이와 같이 나열된 분수들을 1/1 → 1/2 → 2/1 → 3/1 → 2/2 → … 과 같은 지그재그 순서로 차례대로 1번, 2번, 3번, 4번, 5번, … 분수라고 하자.
 
 X가 주어졌을 때, X번째 분수를 구하는 프로그램을 작성하시오.
